@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World - on master'
+                echo 'Hello World - manual PR and automatic master'
             }
         }
     }
