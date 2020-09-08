@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World - only when merging into master'
+                echo 'Hello World - should build PR - 1'
             }
         }
     }
